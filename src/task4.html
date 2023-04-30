@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_btn2.css">
+    <title>Задание №4</title>
+</head>
+<body>
+    <a href="/index.html"><span>НА ГЛАВНУЮ</span></a>
+   
+        <h2>Содержание задания №4:</h2>
+            <p>Сверстайте кнопку, по клику на которую будет отправляться запрос к Timezone API. <br> В запросе нужно отправить координаты местоположения пользователя, полученные с помощью Geolocation API. <br>
+            В ответ на запрос придёт объект, из которого нужно вывести на экран следующую информацию: </p>
+            <ul>
+            <li>временная зона, в которой находится пользователь: параметр timezone;
+            местные дата и время: параметр date_time_txt.</li>
+            <li>Строка запроса к API выглядит следующим образом:
+            https://api.ipgeolocation.io/timezone?apiKey=32bcd4a6e4b548968e7afcdb682ac679&lat=latitude&long=longitude. <br>
+            Вместо latitude и longitude нужно подставить широту и долготу.</li>
+            </ul>
+        </p>
+        <button class="btn">Получить данные</button>
+        <ol id="output"></ol>
+   <script src="script4.js"></script>
+</body>
+</html>

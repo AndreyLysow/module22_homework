@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style_btn3.css">
+        <script src="leaflet.js"></script>
+    <link rel="stylesheet" href="leaflet.css">
+
+ 
+    <title>Задание №5</title>
+</head>
+<body>
+    <a href="/index.html"><span>НА ГЛАВНУЮ</span></a>
+   
+        <h2>Содержание задания №5:</h2>
+
+        <h3>Реализовать чат на основе эхо-сервера wss://echo-ws-service.herokuapp.com/<br>
+            Интерфейс состоит из input, куда вводится текст сообщения, и кнопки «Отправить».<br>
+            При клике на кнопку «Отправить» сообщение должно появляться в окне переписки.</h3>
+
+
+        <section><h2>Эхо-тестирование WebSocket</h2>
+
+            <form><input type="text" id="userMessage" placeholder="Здесь вводится текст сообщения" >&nbsp;<button class="btn j-btn-send">Отправить</button>
+            &nbsp;<button class="btn j-btn-geoloc" title="Геолокация с использованием сервиса OpenStreetMap">Гео-локация</button>&nbsp;
+            <button class="btn j-btn-close" title="Закрыть соединение" >&#9587;</button></form>
+            
+            
+            <div id="output"></div>
+            </section>
+            
+            <script src="script5.js"></script>
+</body>
+</html>

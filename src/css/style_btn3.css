@@ -1,0 +1,139 @@
+
+ body {
+  background-image: url("/src/img/fon2.jpg");
+    opacity: 0.9;
+ }
+
+ a {
+  color: #9b1313;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+a:hover {
+  color: #666;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+
+ section{
+  width: 80vw;
+  margin:auto;
+}
+
+.btn {
+  padding: 0;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px 10px;
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  line-height: .9;
+  white-space: pre-line;
+
+  border: 1px solid;
+  border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+  border-radius: 3px;
+  outline: none;
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+    transition: 0.3s;
+    text-transform: uppercase;
+  color: rgb(242, 245, 233);
+  font-size: 1em;
+
+  border: 1px solid transparent;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(149, 206, 233, 0.897);
+  transform: scale(1.05);
+}
+
+
+.btn:hover {
+  color: rgb(255,255,255);
+  background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+}
+.btn:active {
+  color: rgb(255,255,255);
+  border-color: #2970a9;
+  background-image: linear-gradient(#5796c8, #6aa2ce);
+  box-shadow: none;
+}
+
+
+
+input[type=text]#userMessage{
+  font-size: 1em;
+  width: 15em;
+  border: 3px solid #60a3d8;
+  padding: .3em .6em;
+}
+div#output{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 80vw;
+  border: 3px solid #60a3d8;
+  overflow-y: scroll;  /* for long disputes with the echo server :) */
+}
+div.userMessage, div.responderMessage{
+  position: relative;
+  width: 99%;
+}
+div.userMessage{
+  text-align: right;
+  font-size: 1.2em;
+}
+div.responderMessage{
+  text-align: left;
+  font-size: 1.2em;
+}
+div.systemMessage,div.errorMessage{
+  text-align: center;
+  width: 99%;
+}
+div.systemMessage>p,div.errorMessage>p{
+  text-transform: uppercase;
+  font-size: x-small;
+}
+div.systemMessage>p{
+  color: rgb(6, 16, 53);
+  font-size: .8em;
+}
+div.errorMessage>p{
+  color: #9b1313;
+  font-size: .8em;
+}
+div.userMessage>p, div.responderMessage>p{
+  display: inline-block;
+  border: 3px solid #60a3d8;
+  border-radius: .5em;
+  padding: .2em .5em;
+  margin: .2em;
+}
+
+#map {
+  width: 480px;
+  height: 320px;
+  border-radius: 4px;
+  box-shadow: 0 0 1px #222;
+}

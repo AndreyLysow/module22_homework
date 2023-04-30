@@ -1,0 +1,87 @@
+body {
+    background-image: url("/src/img/fon2.jpg");
+      opacity: 0.9;
+  }
+a {
+    color: #9b1313;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  a:hover {
+    color: #666;
+  }
+  
+  a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+
+
+.btn {
+    display: flex;
+  width: 28em;
+  font-size: 80%;
+  margin: 100px;
+
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.1;
+  white-space: pre-line;
+  padding: .7em 0;
+  border: 1px solid;
+  border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+  border-radius: 6px;
+  outline: none;
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+    transition: 0.3s;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(149, 206, 233, 0.897);
+    transform: scale(1.05);
+  }
+  
+  .btn_icon {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  
+  .btn:first-line{
+    font-size: 170%;
+    font-weight: 700;
+  }
+  .btn:hover {
+    color: rgb(255,255,255);
+    background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+  }
+  .btn:active {
+    color: rgb(255,255,255);
+    border-color: #2970a9;
+    background-image: linear-gradient(#5796c8, #6aa2ce);
+    box-shadow: none;
+  }
+  
+  .btn_text {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+
