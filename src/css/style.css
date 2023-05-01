@@ -3,40 +3,40 @@
 	font-family: 'oswaldbold';
 	font-weight: normal;
 	font-style: normal;
-	src:url('../fonts/oswald-bold.woff2') format('woff2');
+	src:url('../src/fonts/oswald-bold.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'oswaldlight';
 	font-weight: normal;
 	font-style: normal;
-	src:url('../fonts/oswald-light.woff2') format('woff2');
+	src:url('../src/fonts/oswald-light.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'oswaldregular';
 	font-weight: normal;
 	font-style: normal;
-	src:url('../fonts/oswald-regular.woff2') format('woff2');
+	src:url('../src/fonts/oswald-regular.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'lobsterregular';
 	font-weight: normal;
 	font-style: normal;
-	src:url('../fonts/lobster-regular.woff2') format('woff2');
+	src:url('../src/fonts/lobster-regular.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'pt_sansitalic';
 	font-weight: normal;
 	font-style: normal;
-	src:url('../fonts/pt_sans-web-italic.woff2') format('woff2');
+	src:url('../src/fonts/pt_sans-web-italic.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'pt_sansregular';
 	font-weight: normal;
 	font-style: normal;
-	src:url('../fonts/pt_sans-web-regular.woff2') format('woff2');
+	src:url('../src/fonts/pt_sans-web-regular.woff2') format('woff2');
 }
 body {
-  background-image: url("/src/img/fon2.jpg");
+  background-image: url("../../src/img/fon2.jpg");
     opacity: 0.9;
 }
 
